@@ -1,0 +1,152 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    background-repeat: repeat;
+    color: #333;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 40px 20px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: center;
+    height: auto;
+  }
+  
+  .logo {
+    width: 150px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    max-height: 60px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  main {
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin: 20px 0px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    width: 100%;
+    border: 3px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .logo {
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+  }
+  
+  img:hover {
+    border-color: #666;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  section img[alt*="Ubicación"] {
+    width: 80%;
+    border: 2px solid #bbb;
+    box-shadow: none;
+    transition: none;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .gallery img {
+    width: 30%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .boton-link {
+    text-decoration: none;
+    color: #0066cc;
+    border: 1px solid #0066cc;
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.3s ease;
+    font-weight: normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .boton-link:hover {
+    background-color: #0066cc;
+    color: white;
+  }
+  
+  .info-fecha {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #444;
+    background-color: #eaf1f6;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+
+
+
+
